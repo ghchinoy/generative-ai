@@ -157,13 +157,13 @@ func (bt *BenchmarkTracker) redraw(isFinal bool) {
 		aDetails = MutedStyle.Render(fmt.Sprintf("Error: %v", bt.agenticErr))
 	} else if bt.agenticDone && bt.agenticRes != nil {
 		aStatus = badgeCompleted
-		toks := int32(0)
+		tokens := int32(0)
 		if bt.agenticRes.Usage != nil {
-			toks = bt.agenticRes.Usage.TotalTokenCount
+			tokens = bt.agenticRes.Usage.TotalTokenCount
 		}
 		aDetails = fmt.Sprintf("%-7s • %s tokens %s",
 			GreenStyle.Render(fmt.Sprintf("%v", bt.agenticRes.Duration.Round(time.Millisecond))),
-			BoldWhite.Render(fmt.Sprintf("%d", toks)),
+			BoldWhite.Render(fmt.Sprintf("%d", tokens)),
 			MutedStyle.Render("(dynamic frame inspection)"),
 		)
 	} else {
@@ -181,13 +181,13 @@ func (bt *BenchmarkTracker) redraw(isFinal bool) {
 		sDetails = MutedStyle.Render(fmt.Sprintf("Error: %v", bt.staticErr))
 	} else if bt.staticDone && bt.staticRes != nil {
 		sStatus = badgeCompleted
-		toks := int32(0)
+		tokens := int32(0)
 		if bt.staticRes.Usage != nil {
-			toks = bt.staticRes.Usage.TotalTokenCount
+			tokens = bt.staticRes.Usage.TotalTokenCount
 		}
 		sDetails = fmt.Sprintf("%-7s • %s tokens %s",
 			GreenStyle.Render(fmt.Sprintf("%v", bt.staticRes.Duration.Round(time.Millisecond))),
-			BoldWhite.Render(fmt.Sprintf("%d", toks)),
+			BoldWhite.Render(fmt.Sprintf("%d", tokens)),
 			MutedStyle.Render("(100% frames pre-ingested)"),
 		)
 	} else {
@@ -364,13 +364,13 @@ func (mt *MultiModelTracker) redraw(isFinal bool) {
 			details = MutedStyle.Render(fmt.Sprintf("Error: %v", m.Error))
 		} else if m.Done && m.Result != nil {
 			status = badgeCompleted
-			toks := int32(0)
+			tokens := int32(0)
 			if m.Result.Usage != nil {
-				toks = m.Result.Usage.TotalTokenCount
+				tokens = m.Result.Usage.TotalTokenCount
 			}
 			details = fmt.Sprintf("%-7s • %s tokens %s",
 				GreenStyle.Render(fmt.Sprintf("%v", m.Duration.Round(time.Millisecond))),
-				BoldWhite.Render(fmt.Sprintf("%d", toks)),
+				BoldWhite.Render(fmt.Sprintf("%d", tokens)),
 				MutedStyle.Render("(dynamic frame inspection)"),
 			)
 		} else {

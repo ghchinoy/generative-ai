@@ -1,10 +1,10 @@
 # gemini-agentic-video-go
 
-An idiomatic Go reference implementation and interactive CLI demonstrating [Gemini agentic video understanding](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/video-understanding) with the official Google GenAI SDK (`google.golang.org/genai`). Provides reusable Go patterns, backend client factories, and production code examples (single-video, multi-video synthesis, multi-turn dialogue, token telemetry) alongside an interactive CLI tool—featuring active Think ➔ Act ➔ Observe dynamic timeline navigation, sub-second precision, and up to 96% token reduction compared to static frame ingestion.
+An idiomatic Go reference implementation and interactive CLI demonstrating [Gemini agentic video understanding](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/capabilities/video-understanding) with the official Google Gen AI SDK (`google.golang.org/genai`). Provides reusable Go patterns, backend client factories, and production code examples (single-video, multi-video synthesis, multi-turn dialogue, token telemetry) alongside an interactive CLI tool—featuring active Think ➔ Act ➔ Observe dynamic timeline navigation, sub-second precision, and up to 96% token reduction compared to static frame ingestion.
 
 [![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?style=flat&logo=go)](https://golang.org)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Google GenAI SDK](https://img.shields.io/badge/Google%20GenAI%20SDK-v1.70.0-4285F4?logo=google)](https://pkg.go.dev/google.golang.org/genai)
+[![Google Gen AI SDK](https://img.shields.io/badge/Google%20Gen%20AI%20SDK-v1.70.0-4285F4?logo=google)](https://pkg.go.dev/google.golang.org/genai)
 [![User Guide](https://img.shields.io/badge/Documentation-User%20Guide-blue?logo=markdown)](docs/user-guide.md)
 [![Developer Guide](https://img.shields.io/badge/Documentation-Developer%20Guide-blueviolet?logo=go)](docs/developers-guide.md)
 
@@ -165,7 +165,7 @@ func main() {
 ### Prerequisites
 
 - [Go 1.24+](https://golang.org/dl/)
-- A Google Cloud Project with the Vertex AI / Gemini API enabled
+- A Google Cloud Project with the Agent Platform / Vertex AI / Gemini API enabled
 - Authenticated credentials via Application Default Credentials (`gcloud auth application-default login`)
 
 ### Setup and Running
@@ -202,8 +202,8 @@ make run
 | Flag | Default | Description |
 | :--- | :--- | :--- |
 | `-m, --model` | `gemini-3.7-flash` | Gemini model ID (`gemini-3.8-flash`, `gemini-3.7-flash`, `gemini-3.6-flash`, `gemini-3.5-flash-lite`) |
-| `-p, --project` | `""` | GCP Project ID (falls back to `GOOGLE_CLOUD_PROJECT` or `gcloud config`) |
-| `-l, --location` | `"global"` | GCP Location / Region (defaults to `GOOGLE_CLOUD_LOCATION` or `"global"`) |
+| `-p, --project` | `""` | Google Cloud Project ID (falls back to `GOOGLE_CLOUD_PROJECT` or `gcloud config`) |
+| `-l, --location` | `"global"` | Google Cloud Location / Region (defaults to `GOOGLE_CLOUD_LOCATION` or `"global"`) |
 | `-b, --backend` | `"enterprise"` | Client backend: `enterprise`, `vertex`, or `gemini` (API key) |
 
 ### Cross-Compilation

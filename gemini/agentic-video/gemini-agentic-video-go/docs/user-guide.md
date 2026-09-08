@@ -348,7 +348,7 @@ import (
 func main() {
 	ctx := context.Background()
 
-	// 1. Initialize client with Enterprise or Vertex AI backend
+	// 1. Initialize client with Enterprise Agent Platform or Vertex AI backend
 	client, err := genai.NewClient(ctx, &genai.ClientConfig{
 		Backend:  genai.BackendEnterprise,
 		Project:  os.Getenv("GOOGLE_CLOUD_PROJECT"),

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package client provides configuration and initialization helpers for the Google GenAI client.
+// Package client provides configuration and initialization helpers for the Google Gen AI client.
 package client
 
 import (
@@ -25,7 +25,7 @@ import (
 	"google.golang.org/genai"
 )
 
-// Config encapsulates configuration for the Google GenAI client.
+// Config encapsulates configuration for the Google Gen AI client.
 type Config struct {
 	Backend  string
 	Project  string
@@ -33,7 +33,7 @@ type Config struct {
 	APIKey   string
 }
 
-// NewClient initializes a Google GenAI Client with the selected backend.
+// NewClient initializes a Google Gen AI Client with the selected backend.
 func NewClient(ctx context.Context, cfg Config) (*genai.Client, error) {
 	clientCfg := &genai.ClientConfig{}
 
@@ -47,7 +47,7 @@ func NewClient(ctx context.Context, cfg Config) (*genai.Client, error) {
 		clientCfg.Location = cfg.Location
 	case "vertex":
 		if cfg.Project == "" {
-			return nil, fmt.Errorf("project ID is required for Vertex AI backend; set --project or GOOGLE_CLOUD_PROJECT")
+			return nil, fmt.Errorf("project ID is required for Vertex AI / Agent Platform backend; set --project or GOOGLE_CLOUD_PROJECT")
 		}
 		clientCfg.Backend = genai.BackendVertexAI
 		clientCfg.Project = cfg.Project
@@ -72,7 +72,7 @@ func NewClient(ctx context.Context, cfg Config) (*genai.Client, error) {
 	return genai.NewClient(ctx, clientCfg)
 }
 
-// ResolveProject determines the GCP project ID from flag, env, or gcloud CLI.
+// ResolveProject determines the Google Cloud project ID from flag, env, or gcloud CLI.
 func ResolveProject(flagValue string) string {
 	if flagValue != "" && flagValue != "[your-project-id]" {
 		return flagValue
@@ -91,7 +91,7 @@ func ResolveProject(flagValue string) string {
 	return ""
 }
 
-// ResolveLocation determines the GCP location/region from flag or environment.
+// ResolveLocation determines the Google Cloud location/region from flag or environment.
 func ResolveLocation(flagValue string) string {
 	if flagValue != "" {
 		return flagValue

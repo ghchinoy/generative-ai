@@ -1,6 +1,6 @@
 # Gemini Agentic Video Understanding: Go Developer's Guide
 
-A comprehensive, code-first guide to building production applications, microservices, and pipelines with Gemini Agentic Video understanding in idiomatic Go using the official Google GenAI SDK (`google.golang.org/genai`).
+A comprehensive, code-first guide to building production applications, microservices, and pipelines with Gemini Agentic Video understanding in idiomatic Go using the official Google Gen AI SDK (`google.golang.org/genai`).
 
 ---
 
@@ -48,7 +48,7 @@ In this codebase, the didactic engine is completely decoupled from terminal styl
 
 ```
 internal/
-├── client/     # Pure Go: GCP auth & genai.NewClient
+├── client/     # Pure Go: Google Cloud auth & genai.NewClient
 ├── runner/     # Pure Go: Single-video, multi-video, and multi-turn execution
 ├── telemetry/  # Pure Go: Token metric calculation and cost deltas
 ├── catalog/    # Pure Go: Scenario definitions
@@ -61,9 +61,9 @@ You can copy `internal/runner`, `internal/client`, and `internal/telemetry` dire
 
 ## 2. Client Initialization & Authentication
 
-The Google GenAI SDK supports three client backends:
+The Google Gen AI SDK supports three client backends:
 1. **Enterprise Agent Platform (`genai.BackendEnterprise`)**: Google Cloud enterprise environments.
-2. **Vertex AI (`genai.BackendVertexAI`)**: Standard Google Cloud Vertex AI workloads.
+2. **Vertex AI / Agent Platform (`genai.BackendVertexAI`)**: Google Cloud Agent Platform and Vertex AI workloads.
 3. **Gemini Developer API (`genai.BackendGeminiAPI`)**: API-key driven developer access.
 
 ### Production Client Factory
@@ -87,7 +87,7 @@ type Config struct {
 	APIKey   string
 }
 
-// NewClient initializes a Google GenAI Client with the selected backend.
+// NewClient initializes a Google Gen AI Client with the selected backend.
 func NewClient(ctx context.Context, cfg Config) (*genai.Client, error) {
 	clientCfg := &genai.ClientConfig{}
 
@@ -101,7 +101,7 @@ func NewClient(ctx context.Context, cfg Config) (*genai.Client, error) {
 		clientCfg.Location = cfg.Location
 	case "vertex":
 		if cfg.Project == "" {
-			return nil, fmt.Errorf("project ID is required for Vertex AI backend; set --project or GOOGLE_CLOUD_PROJECT")
+			return nil, fmt.Errorf("project ID is required for Vertex AI / Agent Platform backend; set --project or GOOGLE_CLOUD_PROJECT")
 		}
 		clientCfg.Backend = genai.BackendVertexAI
 		clientCfg.Project = cfg.Project
