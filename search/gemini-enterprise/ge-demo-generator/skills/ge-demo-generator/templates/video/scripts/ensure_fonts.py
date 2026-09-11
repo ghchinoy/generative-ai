@@ -241,7 +241,7 @@ def ensure_fonts_for_language(lang: str) -> bool:
 
 def main():
     parser = argparse.ArgumentParser(description="Ensure typography fonts for target locale.")
-    parser.add_argument("--lang", default="ja-JP", help="Language code (e.g. ja-JP, en-US, zh-CN, ko-KR, ar, th)")
+    parser.add_argument("--lang", default="en-US", help="Language code (e.g. ja-JP, en-US, zh-CN, ko-KR, ar, th)")
     args = parser.parse_args()
 
     success = ensure_fonts_for_language(args.lang)

@@ -1,0 +1,729 @@
+{
+  "company": "Victory Auditor Test",
+  "role": "Audit Director",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "totalFrames": 7111,
+  "totalDurationSec": 237.03,
+  "rawVideoFile": "raw_recording.mp4",
+  "scenes": [
+    {
+      "id": "scene_intro",
+      "type": "intro_card",
+      "title": "Victory Auditor Test",
+      "subtitle": "Audit Director Demo",
+      "startFrame": 0,
+      "durationFrames": 252,
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "response": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "scene_agenda",
+      "type": "agenda_card",
+      "title": "Walkthrough Agenda",
+      "subtitle": "Victory Auditor Test — Audit Director",
+      "startFrame": 252,
+      "durationFrames": 384,
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "response": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_1",
+      "type": "browser_screen",
+      "title": "Scene 1: Welcome & Situational Briefing",
+      "startFrame": 636,
+      "durationFrames": 853,
+      "rawVideoTime": {
+        "startSec": 0.5,
+        "typingEndSec": 4.7,
+        "thinkingEndSec": 26.3,
+        "completeSec": 26.8
+      },
+      "fastForward": {
+        "startFrame": 762,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_2",
+      "type": "browser_screen",
+      "title": "Scene 2: Metadata & Catalog Discovery",
+      "startFrame": 1489,
+      "durationFrames": 901,
+      "rawVideoTime": {
+        "startSec": 26.8,
+        "typingEndSec": 31.0,
+        "thinkingEndSec": 54.2,
+        "completeSec": 54.7
+      },
+      "fastForward": {
+        "startFrame": 1614,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_3",
+      "type": "browser_screen",
+      "title": "Scene 3: Cross-Source Anomaly Detection",
+      "startFrame": 2390,
+      "durationFrames": 877,
+      "rawVideoTime": {
+        "startSec": 54.7,
+        "typingEndSec": 58.9,
+        "thinkingEndSec": 81.3,
+        "completeSec": 81.8
+      },
+      "fastForward": {
+        "startFrame": 2515,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_4",
+      "type": "browser_screen",
+      "title": "Scene 4: Immediate Workflow Execution",
+      "startFrame": 3267,
+      "durationFrames": 973,
+      "rawVideoTime": {
+        "startSec": 81.8,
+        "typingEndSec": 86.0,
+        "thinkingEndSec": 111.6,
+        "completeSec": 112.1
+      },
+      "fastForward": {
+        "startFrame": 3393,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_5",
+      "type": "browser_screen",
+      "title": "Scene 5: Root Cause Analysis & Quality Inspection",
+      "startFrame": 4240,
+      "durationFrames": 889,
+      "rawVideoTime": {
+        "startSec": 112.1,
+        "typingEndSec": 116.3,
+        "thinkingEndSec": 139.1,
+        "completeSec": 139.6
+      },
+      "fastForward": {
+        "startFrame": 4366,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_6",
+      "type": "browser_screen",
+      "title": "Scene 6: Predictive Planning & Line Simulation",
+      "startFrame": 5129,
+      "durationFrames": 877,
+      "rawVideoTime": {
+        "startSec": 139.6,
+        "typingEndSec": 143.8,
+        "thinkingEndSec": 166.2,
+        "completeSec": 166.7
+      },
+      "fastForward": {
+        "startFrame": 5255,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "prompt_7",
+      "type": "browser_screen",
+      "title": "Scene 7: Operational Summary & Recommendations",
+      "startFrame": 6006,
+      "durationFrames": 889,
+      "rawVideoTime": {
+        "startSec": 166.7,
+        "typingEndSec": 170.9,
+        "thinkingEndSec": 193.7,
+        "completeSec": 208.7
+      },
+      "fastForward": {
+        "startFrame": 6132,
+        "durationFrames": 22,
+        "factor": 4.0
+      },
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 920,
+          "scale": 1.5
+        },
+        "response": {
+          "x": 920.0,
+          "y": 525.0,
+          "scale": 1.1
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "id": "scene_outro",
+      "type": "outro_card",
+      "title": "Gemini Enterprise for Victory Auditor Test",
+      "subtitle": "Next Step: Explore your custom agents today",
+      "startFrame": 6895,
+      "durationFrames": 216,
+      "camera": {
+        "typing": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "response": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        },
+        "overview": {
+          "x": 960,
+          "y": 540,
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "audioClips": [
+    {
+      "id": "audio_intro",
+      "file": "audio_intro.mp3",
+      "startFrame": 10,
+      "durationFrames": 228
+    },
+    {
+      "id": "audio_agenda",
+      "file": "audio_agenda.mp3",
+      "startFrame": 262,
+      "durationFrames": 360
+    },
+    {
+      "id": "audio_prompt_1_lead",
+      "file": "audio_prompt_1_lead.mp3",
+      "startFrame": 636,
+      "durationFrames": 156
+    },
+    {
+      "id": "audio_prompt_1_think",
+      "file": "audio_prompt_1_think.mp3",
+      "startFrame": 797,
+      "durationFrames": 228
+    },
+    {
+      "id": "audio_prompt_1_resp",
+      "file": "audio_prompt_1_resp.mp3",
+      "startFrame": 1030,
+      "durationFrames": 384
+    },
+    {
+      "id": "audio_prompt_2_lead",
+      "file": "audio_prompt_2_lead.mp3",
+      "startFrame": 1489,
+      "durationFrames": 156
+    },
+    {
+      "id": "audio_prompt_2_think",
+      "file": "audio_prompt_2_think.mp3",
+      "startFrame": 1650,
+      "durationFrames": 192
+    },
+    {
+      "id": "audio_prompt_2_resp",
+      "file": "audio_prompt_2_resp.mp3",
+      "startFrame": 1847,
+      "durationFrames": 468
+    },
+    {
+      "id": "audio_prompt_3_lead",
+      "file": "audio_prompt_3_lead.mp3",
+      "startFrame": 2390,
+      "durationFrames": 192
+    },
+    {
+      "id": "audio_prompt_3_think",
+      "file": "audio_prompt_3_think.mp3",
+      "startFrame": 2587,
+      "durationFrames": 192
+    },
+    {
+      "id": "audio_prompt_3_resp",
+      "file": "audio_prompt_3_resp.mp3",
+      "startFrame": 2784,
+      "durationFrames": 408
+    },
+    {
+      "id": "audio_prompt_4_lead",
+      "file": "audio_prompt_4_lead.mp3",
+      "startFrame": 3267,
+      "durationFrames": 216
+    },
+    {
+      "id": "audio_prompt_4_think",
+      "file": "audio_prompt_4_think.mp3",
+      "startFrame": 3488,
+      "durationFrames": 228
+    },
+    {
+      "id": "audio_prompt_4_resp",
+      "file": "audio_prompt_4_resp.mp3",
+      "startFrame": 3721,
+      "durationFrames": 444
+    },
+    {
+      "id": "audio_prompt_5_lead",
+      "file": "audio_prompt_5_lead.mp3",
+      "startFrame": 4240,
+      "durationFrames": 216
+    },
+    {
+      "id": "audio_prompt_5_think",
+      "file": "audio_prompt_5_think.mp3",
+      "startFrame": 4461,
+      "durationFrames": 204
+    },
+    {
+      "id": "audio_prompt_5_resp",
+      "file": "audio_prompt_5_resp.mp3",
+      "startFrame": 4670,
+      "durationFrames": 384
+    },
+    {
+      "id": "audio_prompt_6_lead",
+      "file": "audio_prompt_6_lead.mp3",
+      "startFrame": 5129,
+      "durationFrames": 204
+    },
+    {
+      "id": "audio_prompt_6_think",
+      "file": "audio_prompt_6_think.mp3",
+      "startFrame": 5338,
+      "durationFrames": 204
+    },
+    {
+      "id": "audio_prompt_6_resp",
+      "file": "audio_prompt_6_resp.mp3",
+      "startFrame": 5547,
+      "durationFrames": 384
+    },
+    {
+      "id": "audio_prompt_7_lead",
+      "file": "audio_prompt_7_lead.mp3",
+      "startFrame": 6006,
+      "durationFrames": 180
+    },
+    {
+      "id": "audio_prompt_7_think",
+      "file": "audio_prompt_7_think.mp3",
+      "startFrame": 6191,
+      "durationFrames": 204
+    },
+    {
+      "id": "audio_prompt_7_resp",
+      "file": "audio_prompt_7_resp.mp3",
+      "startFrame": 6400,
+      "durationFrames": 420
+    },
+    {
+      "id": "audio_outro",
+      "file": "audio_outro.mp3",
+      "startFrame": 6905,
+      "durationFrames": 192
+    }
+  ],
+  "subtitles": [
+    {
+      "startFrame": 10,
+      "endFrame": 238,
+      "text": "Welcome to this demonstration of Audit Director, an autonomous AI agent built on Gemini Enterprise for Victory Auditor Test."
+    },
+    {
+      "startFrame": 262,
+      "endFrame": 385,
+      "text": "Today's demonstration covers 7 core operational workflows for enterprise operations."
+    },
+    {
+      "startFrame": 385,
+      "endFrame": 622,
+      "text": "We will walk through situational briefing, catalog discovery, anomaly detection, immediate action approval, root cause analysis, simulation, and daily handover."
+    },
+    {
+      "startFrame": 636,
+      "endFrame": 792,
+      "text": "Now, let's begin with our situational operational briefing by querying current assembly alerts.",
+      "position": "top"
+    },
+    {
+      "startFrame": 797,
+      "endFrame": 1025,
+      "text": "While the agent queries active line status and cross-references shift logs across manufacturing plants, it isolates critical equipment warnings.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 1030,
+      "endFrame": 1246,
+      "text": "The agent returns a structured welcome briefing with priority operational alerts, highlighting turbine cell throughput and pending material handovers.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 1246,
+      "endFrame": 1414,
+      "text": "This completely eliminates morning dashboard hopping, providing plant leadership with immediate situational clarity.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 1489,
+      "endFrame": 1645,
+      "text": "Next, let's inspect component specifications and operational status across all automated assembly cells.",
+      "position": "top"
+    },
+    {
+      "startFrame": 1650,
+      "endFrame": 1842,
+      "text": "The agent scans the enterprise asset registry, correlating cell telemetry, operating parameters, and scheduled maintenance intervals.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 1847,
+      "endFrame": 2105,
+      "text": "A comprehensive equipment specifications table is generated, detailing cycle times, hydraulic pressure thresholds, and active health metrics for cells one through four.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 2105,
+      "endFrame": 2315,
+      "text": "Plant managers gain instant visibility into machine health across facilities without manual database queries or engineering escalations.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 2390,
+      "endFrame": 2582,
+      "text": "We now proceed to cross-reference recent supplier shipments against active production orders to detect component shortages.",
+      "position": "top"
+    },
+    {
+      "startFrame": 2587,
+      "endFrame": 2779,
+      "text": "The agent autonomously joins BigQuery supplier dispatch ledgers with ERP production schedules to uncover shipment variances.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 2784,
+      "endFrame": 3013,
+      "text": "The resulting analysis table isolates a critical five-day delay on titanium turbine blades from Apex Aerospace, pinpointing an impending line stoppage.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 3013,
+      "endFrame": 3192,
+      "text": "Autonomous cross-source reconciliation surfaces supply chain vulnerabilities before they cascade into plant downtime.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 3267,
+      "endFrame": 3483,
+      "text": "Now, let's formulate an emergency component transfer plan to resolve the turbine line shortage and prepare the authorization.",
+      "position": "top"
+    },
+    {
+      "startFrame": 3488,
+      "endFrame": 3716,
+      "text": "The agent evaluates safety stock across secondary warehouses, calculates transit lead times, and prepares a formal ERP transfer order.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 3721,
+      "endFrame": 3954,
+      "text": "It presents an emergency transfer plan reallocating forty units from the Austin depot, complete with an interactive one-click authorization card.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 3954,
+      "endFrame": 4165,
+      "text": "Clicking the approval executes the transfer instantly in ERP, slashing inter-facility logistics coordination from hours to seconds.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 4240,
+      "endFrame": 4456,
+      "text": "Next, let's perform root cause analysis on sensor vibration telemetry and defect logs to investigate recent casting anomalies.",
+      "position": "top"
+    },
+    {
+      "startFrame": 4461,
+      "endFrame": 4665,
+      "text": "The agent performs deep statistical correlation between high-frequency vibration spikes, furnace temperatures, and raw material heat batches.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 4670,
+      "endFrame": 4852,
+      "text": "The diagnostic report pinpoints high vibration harmonics during casting cycle three, isolating an uncalibrated hydraulic dampener.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 4852,
+      "endFrame": 5054,
+      "text": "Predictive vibration analytics prevents defective castings from reaching downstream assembly, safeguarding product quality and warranty margins.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 5129,
+      "endFrame": 5333,
+      "text": "Moving to predictive planning, let's simulate tomorrow's line throughput under current supply constraints and rebalance the schedule.",
+      "position": "top"
+    },
+    {
+      "startFrame": 5338,
+      "endFrame": 5542,
+      "text": "The agent models machine capacity across alternative cell routings, factoring in operator availability and component lead times.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 5547,
+      "endFrame": 5754,
+      "text": "The simulation projects a twelve percent throughput uplift by rerouting sub-assemblies to Cell Two, maintaining customer delivery commitments.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 5754,
+      "endFrame": 5931,
+      "text": "Dynamic production rebalancing empowers operations teams to absorb supply shocks without compromising schedule integrity.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 6006,
+      "endFrame": 6186,
+      "text": "Finally, let's generate the executive end-of-day operations summary, capturing today's reallocations and tomorrow's procurement priorities.",
+      "position": "top"
+    },
+    {
+      "startFrame": 6191,
+      "endFrame": 6395,
+      "text": "The agent synthesizes today's emergency transfer records, defect resolutions, and line balancing adjustments into an executive handover.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 6400,
+      "endFrame": 6608,
+      "text": "The resulting executive report summarizes resolved alerts, confirms forty diverted turbine blades, and outlines high-priority supplier purchase orders.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 6608,
+      "endFrame": 6820,
+      "text": "This guarantees seamless shift handovers, prevents operational blind spots, and establishes institutional excellence across all manufacturing operations.",
+      "position": "bottom"
+    },
+    {
+      "startFrame": 6905,
+      "endFrame": 7081,
+      "text": "Gemini Enterprise empowers Victory Auditor Test to transform manual reviews into seamless autonomous operations."
+    },
+    {
+      "startFrame": 7081,
+      "endFrame": 7097,
+      "text": "Thank you."
+    }
+  ],
+  "agendaItems": [
+    {
+      "number": 1,
+      "title": "Welcome & Situational Briefing",
+      "subtitle": "Now, let's begin with our situational operational briefing b...",
+      "icon": "💬"
+    },
+    {
+      "number": 2,
+      "title": "Metadata & Catalog Discovery",
+      "subtitle": "Next, let's inspect component specifications and operational...",
+      "icon": "📦"
+    },
+    {
+      "number": 3,
+      "title": "Cross-Source Anomaly Detection",
+      "subtitle": "We now proceed to cross-reference recent supplier shipments ...",
+      "icon": "📊"
+    },
+    {
+      "number": 4,
+      "title": "Immediate Workflow Execution",
+      "subtitle": "Now, let's formulate an emergency component transfer plan to...",
+      "icon": "⚡"
+    },
+    {
+      "number": 5,
+      "title": "Root Cause Analysis & Quality Inspection",
+      "subtitle": "Next, let's perform root cause analysis on sensor vibration ...",
+      "icon": "🔍"
+    },
+    {
+      "number": 6,
+      "title": "Predictive Planning & Line Simulation",
+      "subtitle": "Moving to predictive planning, let's simulate tomorrow's lin...",
+      "icon": "📈"
+    },
+    {
+      "number": 7,
+      "title": "Operational Summary & Recommendations",
+      "subtitle": "Finally, let's generate the executive end-of-day operations ...",
+      "icon": "📝"
+    }
+  ],
+  "brand": {
+    "enabled": true,
+    "company": "Victory Auditor Test",
+    "domain": "victoryauditortest.com",
+    "logoFile": "",
+    "primaryColor": "#1A73E8",
+    "accentColor": "#E8F0FE"
+  },
+  "enableNarration": true,
+  "enableSubtitles": true,
+  "enableBgm": false,
+  "bgmFile": "bgm.mp3"
+}
